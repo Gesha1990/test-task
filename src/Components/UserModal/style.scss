@@ -1,0 +1,27 @@
+.user-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+    &__user{
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        overflow-y: scroll;
+        height: 500px;
+        .comment{
+            display: flex;
+            margin-bottom: 10px;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}

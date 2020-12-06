@@ -1,0 +1,5 @@
+.idea
+docker-compose.override.yml
+docker/nginx/nginx.conf
+# dependencies
+/node_modules
