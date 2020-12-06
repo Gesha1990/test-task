@@ -47,7 +47,6 @@ export const getCommentsThunkCreator = (userId) => {
   return (dispatch) => {
     productsAPI.getUserData(userId)
       .then(data => {
-        console.log(data)
         dispatch(addCommentsAC(data))
       })
   }
